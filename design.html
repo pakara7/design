@@ -7,14 +7,18 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/css/util.css">
     <link rel="stylesheet" href="/assets/css/mycss.css">
 </head>
 
+
 <body>
-    <nav>
+    <nav class="white z-depth-4">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#!" class="font8">Application</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text">
+                <i class="material-icons">menu</i>
+            </a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
@@ -25,10 +29,27 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="/assets/img/home_wallpaper_0.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="/assets/img/photo_2023-08-23_20-09-03.jpg"></a>
+                <a href="#name"><span class="white-text name">MohammadMehdi PakAra </span></a>
+                <a href="#email"><span class="white-text email">Pakara.peyman7@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">link</i>my linked in account</a></li>
+        <li><a href="#!">our<i class="material-icons">link</i> website</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="http://www.google.com" >lesson1</a></li>
+        <li><a class="waves-effect" href="#!">lesson2</a></li>
+        <li><a class="waves-effect" href="#!">lesson3</a></li>
+
+
     </ul>
 
 
